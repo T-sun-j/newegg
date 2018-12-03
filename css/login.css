@@ -1,0 +1,333 @@
+.head_title {
+  border-left: 1px solid #D9D9D9;
+  float: left;
+  font: 24px/49px microsoft yahei;
+  margin: 15px 0 0 25px;
+  padding-left: 26px;
+}
+
+.register_box {
+  height: 491px;
+  background: #F9F9F9;
+  overflow: hidden;
+}
+.register_box .wraper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.register_box .clearfix {
+  zoom: 1;
+}
+.register_box .friend_link {
+  height: 30px;
+  line-height: 30px;
+}
+.register_box .clearfix:before,
+.register_box .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.register_box .fr {
+  float: right;
+}
+.register_box .red {
+  color: #fe0000;
+}
+.register_box .step0 {
+  margin: 20px auto;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/register_step.png) no-repeat center;
+  width: 655px;
+  height: 30px;
+  background-position: 0 0;
+}
+.register_box .register_con {
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+.register_box .register_con .register_con_box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.register_box .register_con .register_con_box label {
+  display: inline-block;
+  width: 66px;
+  text-align: left;
+  cursor: default;
+}
+.register_box .register_con .register_con_box .reg_txt_0 {
+  height: 30px;
+  width: 255px;
+  line-height: 30px;
+  border: 1px solid #cfcfcf;
+  text-indent: 5px;
+  overflow: hidden;
+  background: #F9F9F9;
+}
+.register_box .register_con .register_con_box em {
+  top: 8px;
+  text-align: left;
+  width: 360px;
+  height: 20px;
+  line-height: 13px;
+}
+.register_box .register_con .register_con_box .input_usrname_wrong {
+  background-position: 0 -39px;
+  _background-position: 0 -40px;
+  color: #F60;
+}
+.register_box .register_con .register_con_box .input_tips {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/icon_logoin_s.png) no-repeat 0 0;
+  display: inline-block;
+  font-style: normal;
+  padding-left: 17px;
+  vertical-align: middle;
+  width: 360px;
+}
+.register_box .register_con .register_con_box .input_usrname_right {
+  background-position: 0 -19px;
+}
+.register_box .register_con .register_con_box .reg_txt_1 {
+  height: 30px;
+  width: 130px;
+  line-height: 30px;
+  border: 1px solid #cfcfcf;
+  text-indent: 5px;
+  overflow: hidden;
+  background: #F9F9F9;
+  vertical-align: middle;
+  margin-right: 5px;
+  text-align: center;
+}
+.register_box .register_con .register_con_box .code {
+  display: inline-block;
+  height: 32px;
+  width: 115px;
+  vertical-align: middle;
+}
+.register_box .register_con .register_con_box .code img {
+  display: block;
+  height: 32px;
+  width: 115px;
+  border: medium none;
+  max-width: 100%;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.register_box .register_con .register_con_box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.register_box .register_con .register_con_box .code_btn_0 {
+  width: 250px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #868686;
+  cursor: pointer;
+  background: #E1E1E1;
+  margin-left: 391px;
+}
+.register_box .register_con #next_step_btn .next_step_btn {
+  margin-left: 391px;
+}
+.register_box .register_con .next_step_btn {
+  width: 250px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #F55B17;
+  cursor: pointer;
+  background: #F55B17;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.login_center {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 980px;
+}
+.login_center .logoin_l {
+  float: left;
+  text-align: left;
+  width: 547px;
+}
+.login_center .logoin_l img {
+  border: medium none;
+}
+.login_center .logoin_r {
+  float: right;
+  width: 360px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 20px 0;
+}
+.login_center .logoin_r .logoin_r_c1 {
+  border-bottom: 0;
+  padding: 0 25px 15px 30px;
+}
+.login_center .logoin_r .logoin_r_c1 .logoin_title {
+  height: 21px;
+  margin-bottom: 23px;
+}
+.login_center .logoin_r .logoin_r_c1 .logoin_title h2 {
+  color: #333;
+  float: left;
+  font: 18px microsoft yahei;
+}
+.login_center .logoin_r .logoin_r_c1 .logoin_title .fr {
+  float: right;
+}
+.login_center .logoin_r .logoin_r_c1 .logoin_title .fr a {
+  color: #039;
+}
+.login_center .logoin_r .logoin_r_c1 .logoin_title .fr a .fts {
+  font-family: 'SimSun';
+}
+.login_center .logoin_r .logoin_r_c2 {
+  color: #666;
+  padding: 16px 25px 0 30px;
+  overflow: hidden;
+  zoom: 1;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin {
+  width: 325px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin dt {
+  margin-bottom: 4px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin dd {
+  float: left;
+  height: 30px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin dd a {
+  padding: 0 16px 0 26px;
+  color: #666;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 30px;
+  margin: 4px 0;
+  min-width: 20px;
+  overflow: hidden;
+  height: 30px;
+  padding-left: 33px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .AliPayLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+  background-position: 0 0;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .TencentQQLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+  background-position: 0 -45px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .WeiXinLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+  background-position: 0 -97px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .SinaLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+  background-position: 0 -161px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .CmpayLogon {
+  background-position: 1px -2576px;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .SDOLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+  background-position: 3px -2609px;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .ThunderLogon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+  background-position: 3px -2508px;
+  padding-right: 0;
+}
+.login_center .logoin_r .logoin_r_c2 .otherlogin .PuTianLogon {
+  margin-left: 7px;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/ptlogo.gif) no-repeat 0 7px;
+}
+
+#LoginForm .logoin_form li {
+  float: none;
+  text-align: center;
+  position: relative;
+  height: 57px;
+  overflow: hidden;
+  width: auto;
+}
+#LoginForm .logoin_form li .username_icon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/login_icon.png) no-repeat center;
+  width: 30px;
+  height: 33px;
+  display: inline-block;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+#LoginForm .logoin_form li input {
+  width: 250px;
+  vertical-align: middle;
+  margin-left: -4px;
+  height: 31px;
+  border: 1px solid #CFCFCF;
+  line-height: 30px;
+  text-indent: 5px;
+}
+#LoginForm .logoin_form li .hasDefaultText {
+  color: #b7b7b7;
+}
+#LoginForm .logoin_form li .input_tips {
+  width: 275px;
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  margin: 0;
+  text-align: left;
+}
+#LoginForm .logoin_form li .password_icon {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/login_icon.png) no-repeat center;
+  width: 30px;
+  height: 33px;
+  display: inline-block;
+  background-position: 0 -59px;
+  vertical-align: middle;
+}
+#LoginForm .logoin_form li .input_usrname_wrong {
+  background-position: 0 -39px;
+  _background-position: 0 -40px;
+  color: #F60;
+}
+#LoginForm .logoin_oper {
+  margin-left: 0;
+  text-align: center;
+  clear: both;
+}
+#LoginForm .logoin_oper a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 73px;
+}
+#LoginForm .logoin_oper .logoin_r a {
+  color: #039;
+}
+#LoginForm .logoin_oper .egg_btns_t2 {
+  margin-top: 10px;
+  width: 240px;
+  padding: 0 19px;
+  font-weight: bolder;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+}
+#LoginForm .logoin_oper .egg_btns_org {
+  background-color: #f7661f;
+  border: 1px solid #f7661f;
+}
+
+/*# sourceMappingURL=login.css.map */

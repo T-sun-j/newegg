@@ -1,0 +1,283 @@
+@charset "utf-8";
+@mixin wrap {
+    margin: 0 auto;
+    padding: 0 100px 0 55px;
+    width: 1200px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// top
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+a {
+    color: rgb(138, 136, 136);
+    text-decoration: none;
+}
+
+.menulist b,
+.topbar b,
+.searchbar b {
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+div {
+    text-align: left;
+}
+
+#topbar {
+    @include wrap();
+    line-height: 24px;
+    height: 24px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    .topnav {
+        width: 540px;
+        float: right;
+        position: relative;
+        font-family: tahoma, \5b8b\4f53;
+    }
+    .wraper {
+        .userpanel {
+            a {
+                padding: 0 10px;
+            }
+            a:hover {
+                color: rgb(51, 50, 50);
+            }
+        }
+        .service {
+            .inner {
+                width: 126px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            }
+        }
+        .hasub {
+            padding: 0;
+            height: 24px;
+            margin-left: -1px;
+            position: relative;
+            .inner {
+                position: absolute;
+                right: -1px;
+                top: 23px;
+                padding: 3px 10px 6px;
+                min-width: 95px;
+                _width: 95px;
+                background-color: #fff;
+                border: 1px solid #eee;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+                display: none;
+                .info {
+                    p {
+                        color: #615f5f;
+                    }
+                    .orange {
+                        color: orangered;
+                        font-size: 20px;
+                    }
+                }
+            }
+            s {
+                position: absolute;
+                right: 12px;
+                top: 11px;
+                display: inline-block;
+                width: 6px;
+                height: 4px;
+                background-position: left -27px;
+                overflow: hidden;
+            }
+            .logintip {
+                padding: 5px 10px;
+                text-align: center;
+            }
+        }
+        @mixin btn {
+            display: inline;
+            width: 60px;
+            height: 25px;
+            float: left;
+            color: #fff;
+        }
+        .hasub .inner {
+            #connect_way a {
+                padding: 0;
+                text-align: center;
+                @include btn();
+                background: #2679f5da;
+            }
+        }
+        .hasub:hover .inner {
+            display: block;
+            z-index: 1000;
+        }
+    }
+    .aside {
+        li {
+            float: left;
+            padding: 0 5px;
+            a {
+                padding-left: 16px;
+            }
+            a:hover {
+                color: #2b2a2a;
+            }
+        }
+    }
+}
+
+// header
+.header {
+    @include wrap();
+    height: 90px;
+    position: relative;
+    .logo {
+        float: left;
+    }
+    .searchbar {
+        float: left;
+        position: absolute;
+        left: 468px;
+        height: 34px;
+        width: 440px;
+        top: 18px;
+        input {
+            height: 30px;
+            width: 330px;
+            border: 2px solid #f60;
+            float: left;
+            line-height: 30px;
+        }
+        a {
+            width: 98px;
+            height: 34px;
+            background: #f60;
+            color: #fff;
+            text-indent: 0;
+            font: bolder 14px/34px simsun;
+            text-align: center;
+            float: left;
+            border-radius: 0 3px 3px 0;
+            text-decoration: none;
+        }
+    }
+    .hot {
+        position: absolute;
+        left: 478px;
+        top: 48px;
+        overflow: hidden;
+        clear: both;
+        width: 400px;
+        line-height: 29px;
+        color: #767676;
+        b {
+            margin: 0 15px;
+        }
+    }
+}
+
+// menu
+.menu {
+    @include wrap();
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+    background: #10286C;
+    .innermenu {
+        h3 {
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            font-weight: bold;
+            background: #f60;
+            color: #fff;
+            font-size: 14px;
+            text-indent: 20px;
+        }
+    }
+    .nav {
+        position: absolute;
+        left: 239px;
+        top: 0;
+        z-index: 11;
+        li {
+            float: left;
+            padding: 0 20px;
+            height: 40px;
+            line-height: 40px;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+            a {
+                color: #fff;
+            }
+        }
+        li:hover{
+            background:rgb(46, 94, 224)
+        }
+    }
+    .utility {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-right: 80px;
+        height: 40px;
+        z-index: 1;
+        .mycart {
+            width: 115px;
+            float: left;
+            background: #f60;
+            border: 2px solid #f60;
+            padding: 10px;
+            border-right: 1px solid rgb(235, 214, 191);
+            height: 16px;
+            text-align: center; // line-height: 36px;
+            a {
+                color: #fff;
+                span {
+                    color: #ffb380;
+                    font-weight: bold;
+                    font-size: 13px;
+                    margin: 0 8px;
+                }
+            }
+        }
+        .favor {
+            float: right;
+            width: 115px;
+            height: 36px;
+            line-height: 36px;
+            background: #f60;
+            text-align: center;
+            border: 2px solid #f60; // position: absolute;
+            // top: 0;
+            z-index: 1;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}

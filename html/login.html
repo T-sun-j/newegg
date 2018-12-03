@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/pool.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <!-- topbar -->
+    <div id="topbar">
+        <div style="width:1000px;margin:0 auto;">
+            <div class="wraper topnav">
+                <span class="userpanel fl mr10">
+                    <span id="spWelcome" class="welcome ml10" style="margin-left:250px">欢迎来新蛋购物！</span>
+                </span>
+                <ul class="aside fr">
+                    <li><a href="#" target="_blank"> 帮助中心</a></li>
+                    <li class="hasub service"><a href="javascript:void(770);" class="oper"> 客户服务<s></s></a>
+                        <div class="inner">
+                            <div class="info">
+                                <p class="orange fz14">
+                                    <strong>
+                                        400-820-4400</strong></p>
+                                <strong>
+                                    021-67072699</strong>
+                                <p>
+                                    每天 9:00 - 18:00</p>
+                            </div>
+                            <div id="connect_way">
+                                <a class="common_btn common_blue_btn" href="#" title="在线咨询" target="_blank" style="float: left; clear: left; margin-right: 4px;">
+                                    <span> 在线咨询</span>
+                                </a>
+                                <a class="common_btn common_blue_btn" target="_blank" href="#" title="邮件我们" style="float: left;clear:right;">
+                                    <span> 邮件我们</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="aside">
+                <li><a href="#" target="_blank" class="phone">
+                        掌上新蛋</a></li>
+                <li><a href="#" target="_blank" class="bizGroupBuy">
+                        企业团购</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="header" style="background:#fff;">
+        <div class="logo" style="margin-left:100px">
+            <a href="../html/index.html"><img src="../img/index/logo.png" alt=""></a>
+        </div>
+
+        <div class="head_title">欢迎登陆</div>
+
+    </div>
+
+    <div style="background: #E3E3E3; padding: 44px 0px">
+        <div class="wrapper login_center clear">
+            <div class="logoin_l">
+
+                <img src="https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/logoin_bg.jpg" alt="">
+
+            </div>
+
+
+            <div class="logoin_r">
+                <form action="" method="post" id="LoginForm">
+                    <div class="logoin_r_c1">
+                        <div class="logoin_title">
+                            <h2>登录新蛋</h2>
+                            <div class="fr"><a href="../html/register.html">注册新用户<span class="fts">&gt;&gt;</span></a></div>
+                        </div>
+                        <ul class="logoin_form">
+                            <li class="username">
+                                <span class="username_icon"></span>
+                                <input name="name" maxlength="50" type="text" onfocus="uiLogin.inputFocus(this)" class="hasDefaultText"
+                                    onblur="uiLogin.inputBlur(this)" id="name" value="用户名/已验证手机或邮箱" defaultvalue="用户名/已验证手机或邮箱"
+                                    value2="">
+                                <em class="input_tips ie6png input_usrname_wrong" style="display:none;" id="tipName"></em>
+                            </li>
+                            <li class="password">
+                                <span class="password_icon"></span>
+                                <input name="pwd" onfocus="uiLogin.inputFocus(this)" onblur="uiLogin.inputBlur(this)"
+                                    type="password" id="pwd" maxlength="50">
+                                <em class="input_tips ie6png input_usrname_wrong" style="display:none;" id="tipPwd"></em>
+                            </li>
+
+                        </ul>
+                        <div class="logoin_oper">
+
+                            <a href="https://www.newegg.cn/Service/HelpCenter.aspx?sysno=54" class="fl" target="_blank">账户安全</a>
+                            <a href="https://secure.newegg.cn/Customer/GetPassword.aspx" class="fr">忘记密码？</a>
+                        </div>
+                        <div class="logoin_oper">
+                            <a href="javascript:uiLogin.check()" class="egg_btns_t2 egg_btns_org" style="color:#FFFFFF"><span>立即登录</span></a>
+                        </div>
+                    </div>
+                    <input type="hidden" id="needcode" name="needcode" value="0">
+                </form>
+                <div class="logoin_r_c2">
+
+                    <dl class="otherlogin">
+                        <dt>您还可以使用以下合作伙伴的账户登录新蛋网：</dt>
+                        <dd class="AliPayLogon"><a href="https://secure.newegg.cn/Customer/Passport/AliPay/Logon.aspx"
+                                title="支付宝">支付宝</a></dd>
+                        <dd class="TencentQQLogon"><a href="https://secure.newegg.cn/Customer/Passport/TencentQQ/Logon.aspx"
+                                title="QQ" onclick="return uiLogin.OpenWind(this);">QQ</a></dd>
+                        <dd class="WeiXinLogon"><a href="javascript:void(0);" title="微信">微信</a></dd>
+                        <dd class="SinaLogon"><a href="https://secure.newegg.cn/Customer/Passport/Sina/Logon.aspx"
+                                title="新浪微博" onclick="return uiLogin.OpenWind(this);">新浪微博</a></dd>
+                        <dd class="CmpayLogon"><a href="https://secure.newegg.cn/Customer/Passport/Cmpay/Logon.aspx"
+                                title="手机支付">手机支付</a></dd>
+                        <dd class="SDOLogon"><a href="https://secure.newegg.cn/Customer/Passport/SDO/Logon.aspx" title="盛大登录">盛大登录</a></dd>
+                        <dd class="ThunderLogon"><a href="https://secure.newegg.cn/Customer/Passport/Thunder/Logon.aspx"
+                                title="迅雷">迅雷</a></dd>
+                        <dd class="PuTianLogon"><a href="https://secure.newegg.cn/Customer/Passport/PuTian/Logon.aspx"
+                                title="莆田政府采购登录">莆田政府采购登录</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Rfooter -->
+    <div id="footer">
+        <div class="footer">
+            <a class="item1" ref="noBlank" id="cnnic_url" oncontextmenu="return false;" onclick="change_CNNIC('cnnic_url')"
+                href="https://ss.knet.cn/verifyseal.dll?sn=2011010300100004008&amp;ct=df&amp;pa=308298" target="_blank"
+                title="可信网站"></a>
+            <a href="https://secure.newegg.cn/Geotrust.aspx" ref="noBlank" target="_blank" class="item3" title="E9WEB16"></a>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602000303" ref="noBlank" target="_blank"
+                class="item7" title="网站备案信息" style="position:relative;">
+                <span style="position: absolute;font-size:12px;text-indent:0px;line-height: normal;bottom: 4px;left: 41px;color: #001b75;font-family: serif;">31010602000303</span></a>
+            <a href="http://sh.cyberpolice.cn/" ref="noBlank" target="_blank" title="110网监" class="item8"></a>
+            <a href="http://www.zx110.org/cxsSearch.do?wd=%E6%96%B0%E8%9B%8B" ref="noBlank" target="_blank" title="网络社会征信网"
+                class="item9"></a>
+            <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" ref="noBlank" target="_blank" title="中央网信办"
+                class="item10"></a>
+            <p>新蛋集团网站：<a class="ml5" href="http://www.newegg.com/ " target="_blank" style="color:#484848">美国新蛋</a><a
+                    class="ml10" href="http://www.newegg.cn " target="_blank" style="color:#484848">中国新蛋</a><a class="ml10"
+                    href="http://www.newegg.ca/ " target="_blank" style="color:#484848">加拿大新蛋</a><a class="ml10" href="http://www.neweggsoft.com/"
+                    target="_blank" style="color:#484848">新蛋软件</a></p>
+
+            <img src="https://c2.neweggimages.com.cn/WebResources/2009/Default/Nest/GomezE9WEB16.gif" height="1px"
+                width="1px" visible="false">
+
+            <p><span>© 2001-2018</span> <span>新蛋商贸（上海）有限公司</span> <span>版权所有</span> <span><a href="http://www.miibeian.gov.cn/"
+                        title="上海市互联网准入证书" target="_blank" ref="noBlank" style="color:#484848">沪ICP备:16033615</a></span></p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/login.js"></script>

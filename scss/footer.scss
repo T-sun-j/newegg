@@ -1,0 +1,152 @@
+@charset "utf-8";
+@import "header.scss";
+@mixin footer {
+    text-align: center;
+    clear: both;
+}
+
+@mixin dl {
+    dl {
+        float: left;
+        width: 17.64%;
+        padding-right: 1%;
+        margin-left: 1.5%;
+        height: 185px;
+        display: inline;
+        border-right: 1px solid #dbdbdb;
+    }
+}
+
+@mixin dt {
+    dt {
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 28px;
+        top: -10px;
+        height: 20px;
+        overflow: hidden;
+        line-height: 20px;
+        background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/helpcenter.gif) no-repeat;
+        color: #484848;
+    }
+}
+
+#footer {
+    @include wrap;
+    margin-top: 55px;
+    background: #FFF;
+    border-top: 1px solid #FFF;
+    .helpcenter {
+        padding-left: 1.5%;
+        margin-top: 50px;
+        @include dl;
+        @include dt();
+        dd {
+            padding: 10px 0 0 16px;
+            a {
+                line-height: 22px;
+                height: 22px;
+                overflow: hidden;
+                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/dot.gif) no-repeat left center;
+                display: inline-block;
+                padding-left: 12px;
+            }
+        }
+        .help_fresh dt {
+            background-position: left 2px;
+        }
+        .help_service dt {
+            background-position: left -113px;
+        }
+        .SpecialServies dt {
+            background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/SpecialServies.png) no-repeat left center;
+        }
+        .help_cooperate dt {
+            background-position: left -152px;
+        }
+        .help_about {
+            width: 92px;
+            border-right: none;
+            dt {
+                background-position: left -190px;
+            }
+        }
+    }
+    .footer {
+        text-align: center;
+        font-size: 0;
+        padding: 80px 0 30px;
+        .item1,
+        .item2,
+        .item3,
+        .item4,
+        .item5,
+        .item6,
+        .item7,
+        .item8,
+        .item9,
+        .item10 {
+            display: inline-block;
+            background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/certi20150925.png) no-repeat;
+            height: 45px;
+            font-size: 0;
+            line-height: 0;
+            overflow: hidden;
+            text-indent: -20000px;
+            margin: 0 3px 10px 2px;
+        }
+        .item1 {
+            background-position: left 0;
+            width: 123px;
+        }
+        .item3 {
+            background-position: left -92px;
+            width: 116px;
+        }
+        .item7 {
+            background-position: left -276px;
+            width: 130px;
+            position: relative;
+            span {
+                margin: 0 2px;
+                position: absolute;
+                font-size: 12px;
+                text-indent: 0px;
+                line-height: normal;
+                bottom: 4px;
+                left: 41px;
+                color: #001b75;
+                font-family: serif;
+            }
+        }
+        .item8 {
+            background-position: left -326px;
+            width: 127px;
+        }
+        .item9 {
+            background-position: left -376px;
+            width: 106px;
+        }
+        .item10 {
+            background-position: left -421px;
+            width: 270px;
+        }
+        p {
+            text-align: center;
+            font-size: 12px;
+            padding: 0 0 10px;
+            .ml5 {
+                margin-left: 5px;
+                // float: left;
+            }
+            .ml10 {
+                margin-left: 10px;
+                // float: left;
+            }
+            
+        }
+        span {
+            margin: 0 2px;
+        }
+    }
+}

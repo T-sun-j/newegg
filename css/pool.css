@@ -1,0 +1,94 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+dl,
+dd,
+td,
+input,
+fieldset,
+textarea,
+option {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+a,
+input {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: 100;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+body {
+    font: 12px "????";
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.border_right {
+    border-right: none;
+}
+
+.border_bottom {
+    border-bottom: none;
+}
+
+.border_top {
+    border-top: none;
+}
+
+.border_left {
+    border-left: none;
+}

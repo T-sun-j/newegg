@@ -1,0 +1,186 @@
+@charset "utf-8";
+@import "register.scss";
+.login_center {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 980px;
+    .logoin_l {
+        float: left;
+        text-align: left;
+        width: 547px;
+        img {
+            border: medium none;
+        }
+    }
+    .logoin_r {
+        float: right;
+        width: 360px;
+        background: #FFF;
+        border: 1px solid #CCC;
+        padding: 20px 0;
+        .logoin_r_c1 {
+            border-bottom: 0;
+            padding: 0 25px 15px 30px;
+            .logoin_title {
+                height: 21px;
+                margin-bottom: 23px;
+                h2 {
+                    color: #333;
+                    float: left;
+                    font: 18px microsoft yahei;
+                }
+                .fr {
+                    float: right;
+                    a {
+                        color: #039;
+                        .fts {
+                            font-family: 'SimSun';
+                        }
+                    }
+                }
+            }
+        }
+        .logoin_r_c2 {
+            color: #666;
+            padding: 16px 25px 0 30px;
+            overflow: hidden;
+            zoom: 1;
+            .otherlogin {
+                width: 325px;
+                dt {
+                    margin-bottom: 4px;
+                }
+                dd {
+                    float: left;
+                    height: 30px;
+                    a {
+                        padding: 0 16px 0 26px;
+                        color: #666;
+                        text-decoration: none;
+                        white-space: nowrap;
+                        line-height: 30px;
+                        margin: 4px 0;
+                        min-width: 20px;
+                        overflow: hidden;
+                        height: 30px;
+                        padding-left: 33px;
+                    }
+                }
+                .AliPayLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+                    background-position: 0 0;
+                }
+                .TencentQQLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+                    background-position: 0 -45px;
+                }
+                .WeiXinLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+                    background-position: 0 -97px;
+                }
+                .SinaLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/4link.png) no-repeat left;
+                    background-position: 0 -161px;
+                }
+                .CmpayLogon {
+                    background-position: 1px -2576px; // padding-right: 5px;
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+                }
+                .SDOLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+                    background-position: 3px -2609px;
+                }
+                .ThunderLogon {
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/otherLoginIcon20140616.gif) no-repeat scroll 8px -1118px;
+                    background-position: 3px -2508px;
+                    padding-right: 0;
+                }
+                .PuTianLogon {
+                    margin-left:7px;
+                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/ptlogo.gif) no-repeat 0 7px;
+                }
+            }
+        }
+    }
+}
+
+#LoginForm {
+    .logoin_form {
+        li {
+            float: none;
+            text-align: center;
+            position: relative;
+            height: 57px;
+            overflow: hidden;
+            width: auto;
+            .username_icon {
+                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/login_icon.png) no-repeat center;
+                width: 30px;
+                height: 33px;
+                display: inline-block;
+                background-position: 0 0;
+                vertical-align: middle;
+            }
+            input {
+                width: 250px;
+                vertical-align: middle;
+                margin-left: -4px;
+                height: 31px;
+                border: 1px solid #CFCFCF;
+                line-height: 30px;
+                text-indent: 5px;
+            }
+            .hasDefaultText {
+                color: #b7b7b7;
+            }
+            .input_tips {
+                width: 275px;
+                position: absolute;
+                left: 10px;
+                top: 35px;
+                margin: 0;
+                text-align: left;
+            }
+            .password_icon {
+                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/login_icon.png) no-repeat center;
+                width: 30px;
+                height: 33px;
+                display: inline-block;
+                background-position: 0 -59px;
+                vertical-align: middle;
+            }
+            .input_usrname_wrong {
+                background-position: 0 -39px;
+                _background-position: 0 -40px;
+                color: #F60;
+            }
+        }
+    }
+    .logoin_oper {
+        margin-left: 0;
+        text-align: center;
+        clear: both;
+        a {
+            display: inline-block;
+            vertical-align: middle;
+            width: 73px;
+        }
+        .logoin_r a {
+            color: #039;
+        }
+        .egg_btns_t2 {
+            margin-top: 10px;
+            width: 240px;
+            padding: 0 19px;
+            font-weight: bolder;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 4px;
+        }
+        .egg_btns_org {
+            background-color: #f7661f;
+            border: 1px solid #f7661f;
+        }
+    }
+}
