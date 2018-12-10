@@ -1,0 +1,4 @@
+该项目需在项目文件夹下运行cmd，输入gulp F5
+
+Server started http://localhost:8877
+服务器在 localhost:8877 运行

@@ -1,0 +1,256 @@
+@charset "UTF-8";
+.headerwraper {
+  width: 1349px;
+  height: 96px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.headerwraper .wraper {
+  width: 980px;
+  height: 86px;
+  margin: 0 auto;
+}
+.headerwraper .wraper .logocar {
+  float: left;
+}
+.headerwraper .wraper .details {
+  margin-top: 30px;
+  float: right;
+  width: 435px;
+  height: 34px;
+}
+.headerwraper .stepmarkarea {
+  position: absolute;
+  left: 50%;
+  margin-left: -357px;
+  height: 60px;
+  z-index: 10;
+  top: 122px;
+}
+.headerwraper .stepmarkarea .stepmark {
+  width: 237px;
+  text-align: center;
+  float: left;
+}
+.headerwraper .stepmarkarea .stepmark span {
+  background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/sc_markicont20131021.jpg);
+  background-repeat: no-repeat;
+  background-position: center -19px;
+  display: block;
+  vertical-align: middle;
+  height: 19px;
+  width: 28px;
+  margin: 5px auto 12px auto;
+}
+.headerwraper .stepmarkarea .stepmark div {
+  text-align: center;
+  color: #666;
+  font-family: '微软雅黑';
+}
+.headerwraper .stepmarkarea .currentstep div {
+  color: #000;
+}
+.headerwraper .stepmarkarea .currentstep span {
+  background-position: center 0;
+}
+
+.contentwraper {
+  border-top: 1px solid #ededed;
+  width: 1330px;
+  height: 800px;
+}
+.contentwraper .content {
+  width: 958px;
+  height: 800px;
+  margin: 80px auto;
+}
+.contentwraper .content .ShoppingContentTable {
+  position: relative;
+}
+.contentwraper .content .ShoppingContentTable .bg_show {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 958px;
+  height: 1px;
+  background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/shoppingcar/bg_shadow.jpg);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  padding-bottom: 4px;
+  z-index: 10;
+}
+.contentwraper .content .ShoppingContentTable .th_bd {
+  border-bottom: 1px solid #bbb;
+}
+.contentwraper .content .ShoppingContentTable table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.contentwraper .content .ShoppingContentTable table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td {
+  display: table-cell;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr th.ll_darkgray {
+  border-left: 1px solid #bbb;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr th.bl_gray {
+  border-bottom: 1px solid #d9d9d9;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr th.bl_gray .ml10 {
+  margin-left: 10px;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr .pt20 {
+  padding: 20px 0 !important;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray {
+  border-left: 1px solid #bbb;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .Arial14 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .orange {
+  color: #fe7b23;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table strong,
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table b {
+  font-weight: bold;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .btncheckout {
+  background-repeat: norepeat;
+  width: 125px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: '微软雅黑';
+  font-size: 18px;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_org {
+  background-color: #f7661f;
+  border: 1px solid #f7661f;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_t3 {
+  font: normal 18px/46px microsoft yahei;
+  padding: 0 14px;
+  height: 46px;
+}
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_t1,
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_t2,
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_t3,
+.contentwraper .content .ShoppingContentTable table tbody tr td.ll_darkgray table .egg_btns_t4 {
+  /* font: normal 12px simsun; */
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+#shoppingCartList input.cbx {
+  height: 13px;
+  width: 13px;
+  margin: 0 4px 0 10px;
+}
+#shoppingCartList .vm {
+  vertical-align: middle;
+}
+#shoppingCartList .pt20 {
+  padding-top: 20px !important;
+}
+#shoppingCartList .pb a {
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+  color: #666;
+}
+#shoppingCartList .lh120 {
+  line-height: 120%;
+}
+#shoppingCartList .mt10 {
+  margin-top: 10px;
+}
+#shoppingCartList .Arial14 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#shoppingCartList .center {
+  color: #628100;
+  text-align: center !important;
+}
+#shoppingCartList .center input.textbox {
+  height: 22px;
+  width: 36px;
+  line-height: 22px;
+  border: 1px solid #bbb;
+  text-align: center;
+}
+#shoppingCartList .center .limitcount {
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+  background-color: #666;
+  font-family: "微軟正黑體";
+  line-height: 120%;
+  margin-top: 10px;
+}
+#shoppingCartList .center .inlineblock {
+  display: inline-block;
+}
+#shoppingCartList .center .inlineblock .plusminus {
+  width: 13px;
+  height: 11px;
+  display: block;
+  line-height: 9px;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 1px;
+  cursor: pointer;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/plusminus.png);
+}
+#shoppingCartList .center .inlineblock .minus {
+  margin-top: 2px;
+}
+#shoppingCartList .center .inlineblock .plusminus1 {
+  width: 13px;
+  height: 11px;
+  display: block;
+  line-height: 9px;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 1px;
+  cursor: pointer;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/plusminus.png) 0 11px;
+}
+#shoppingCartList .orange {
+  color: #fe7b23;
+}
+#shoppingCartList .pr10 {
+  padding-right: 10px !important;
+}
+#shoppingCartList .right {
+  text-align: right !important;
+}
+#shoppingCartList .right a.funcLink {
+  color: #1C459D;
+  font-weight: normal;
+  z-index: 1000;
+}
+#shoppingCartList .mt5 {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=shoppingcar.css.map */

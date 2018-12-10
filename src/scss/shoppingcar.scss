@@ -1,0 +1,257 @@
+@charset "utf-8";
+.headerwraper {
+    width: 1349px;
+    height: 96px;
+    margin: 0 auto;
+    padding: 20px;
+    .wraper {
+        width: 980px;
+        height: 86px;
+        margin: 0 auto;
+        .logocar {
+            float: left;
+        }
+        .details {
+            margin-top: 30px;
+            float: right;
+            width: 435px;
+            height: 34px;
+        }
+    }
+    .stepmarkarea {
+        position: absolute;
+        left: 50%;
+        margin-left: -357px;
+        height: 60px;
+        z-index: 10;
+        top: 122px;
+        .stepmark {
+            width: 237px;
+            text-align: center;
+            float: left;
+            span {
+                background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/sc_markicont20131021.jpg);
+                background-repeat: no-repeat;
+                background-position: center -19px;
+                display: block;
+                vertical-align: middle;
+                height: 19px;
+                width: 28px;
+                margin: 5px auto 12px auto;
+            }
+            div {
+                text-align: center;
+                color: #666;
+                font-family: '微软雅黑';
+            }
+        }
+        .currentstep div {
+            color: #000;
+        }
+        .currentstep span {
+            background-position: center 0;
+        }
+    }
+}
+
+.contentwraper {
+    border-top: 1px solid #ededed;
+    width: 1330px;
+    height: 800px;
+    .content {
+        width: 958px;
+        height: 800px;
+        margin: 80px auto;
+        .ShoppingContentTable {
+            position: relative; // padding-bottom:40px;
+            // height:900px;
+            .bg_show {
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 958px;
+                height: 1px;
+                background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/shoppingcar/bg_shadow.jpg);
+                background-repeat: repeat-x;
+                background-position: center bottom;
+                padding-bottom: 4px;
+                z-index: 10;
+            }
+            .th_bd {
+                border-bottom: 1px solid #bbb;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                tbody {
+                    display: table-row-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                    tr {
+                        display: table-row;
+                        vertical-align: inherit;
+                        border-color: inherit;
+                        td {
+                            display: table-cell;
+                        }
+                        th.ll_darkgray {
+                            border-left: 1px solid #bbb;
+                        }
+                        th.bl_gray {
+                            border-bottom: 1px solid #d9d9d9;
+                            .ml10 {
+                                margin-left: 10px;
+                            }
+                        }
+                        .pt20 {
+                            padding: 20px 0 !important;
+                        }
+                        td.ll_darkgray {
+                            border-left: 1px solid #bbb;
+                            table {
+                                border-collapse: collapse;
+                                border-spacing: 0;
+                                .Arial14 {
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 14px;
+                                }
+                                .orange {
+                                    color: #fe7b23;
+                                }
+                                strong,
+                                b {
+                                    font-weight: bold;
+                                }
+                                .btncheckout {
+                                    background-repeat: norepeat;
+                                    width: 125px;
+                                    color: #fff;
+                                    display: inline-block;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    font-family: '微软雅黑';
+                                    font-size: 18px;
+                                }
+                                .egg_btns_org {
+                                    background-color: #f7661f;
+                                    border: 1px solid #f7661f;
+                                }
+                                .egg_btns_t3 {
+                                    font: normal 18px/46px microsoft yahei;
+                                    padding: 0 14px;
+                                    height: 46px;
+                                }
+                                .egg_btns_t1,
+                                .egg_btns_t2,
+                                .egg_btns_t3,
+                                .egg_btns_t4 {
+                                    /* font: normal 12px simsun; */
+                                    color: #fff;
+                                    text-align: center;
+                                    display: inline-block;
+                                    border-radius: 2px;
+                                    vertical-align: top;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#shoppingCartList {
+    input.cbx {
+        height: 13px;
+        width: 13px;
+        margin: 0 4px 0 10px;
+    }
+    .vm {
+        vertical-align: middle;
+    }
+    .pt20 {
+        padding-top: 20px !important;
+    }
+    .pb a {
+        display: inline-block;
+        position: relative;
+        z-index: 100;
+        color: #666;
+    }
+    .lh120 {
+        line-height: 120%;
+    }
+    .mt10 {
+        margin-top: 10px;
+    }
+    .Arial14 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .center {
+        color: #628100;
+        text-align: center !important;
+        input.textbox {
+            height: 22px;
+            width: 36px;
+            line-height: 22px;
+            border: 1px solid #bbb;
+            text-align: center;
+        }
+        .limitcount {
+            color: #fff;
+            font-size: 11px;
+            padding: 0 10px;
+            background-color: #666;
+            font-family: "微軟正黑體";
+            line-height: 120%;
+            margin-top: 10px;
+        }
+        .inlineblock {
+            display: inline-block;
+            .plusminus {
+                width: 13px;
+                height: 11px;
+                display: block;
+                line-height: 9px;
+                font-size: 9px;
+                text-align: center;
+                margin-left: 1px;
+                cursor: pointer;
+                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/plusminus.png);
+            }
+            .minus {
+                margin-top: 2px;
+            }
+            .plusminus1 {
+                width: 13px;
+                height: 11px;
+                display: block;
+                line-height: 9px;
+                font-size: 9px;
+                text-align: center;
+                margin-left: 1px;
+                cursor: pointer;
+                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/plusminus.png) 0 11px;
+            }
+        }
+    }
+    .orange {
+        color: #fe7b23;
+    }
+    .pr10 {
+        padding-right: 10px !important;
+    }
+    .right {
+        text-align: right !important;
+        a.funcLink {
+            color: #1C459D;
+            font-weight: normal;
+            z-index: 1000;
+        }
+    }
+    .mt5 {
+        margin-top: 5px;
+    }
+}

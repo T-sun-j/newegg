@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shoppingcar</title>
+    <link rel="stylesheet" href="../css/pool.css">
+    <!-- <link rel="stylesheet" href="../css/header.css"> -->
+    <link rel="stylesheet" href="../css/shoppingcar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="prelative headerwraper">
+        <div class="wraper header">
+            <img class="logocar" src="../img/logo.png">
+            <div class="details">
+                <div id="log">
+                <a href="../html/register.html">注册</a>
+                <b> | </b>
+                <a href="../html/login.html">登录</a>
+            </div>
+                <a href="#">上午好，欢迎来新蛋购物</a>
+                <img class="vm" src="https://c2.neweggimages.com.cn/WebResources/2009/Default/Nest/../Nest/shoppingcar/contact.jpg">
+
+            </div>
+        </div>
+
+        <div class="pabsolute stepmarkarea" style="width:711px;">
+            <div class="stepmark fl currentstep">
+                <span></span>
+                <div>
+                    购物车</div>
+            </div>
+            <div class="stepmark fl ">
+                <span></span>
+                <div>
+                    确认订单</div>
+            </div>
+            <div class="stepmark fl">
+                <span></span>
+                <div>
+                    提交成功</div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- content -->
+    <div class="contentwraper">
+        <div class="content">
+            <div id="ShoppingContent">
+                <div class="ShoppingContentTable" style="border:1px solid #bfbfbf;">
+                    <em class="bg_show"></em>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="PorductList" style="word-break:break-all;border-collapse:collapse;">
+                        <tbody>
+                            <tr>
+                                <th height="32" align="left" valign="middle" bgcolor="#FFFFFF" class="bl_gray bg01"
+                                    scope="col">
+                                    <span class="ml10">我的购物车</span>
+                                    <span class="ml10" id="PingAnLable"></span>
+                                </th>
+
+                                <th width="176" height="32" align="left" valign="middle" bgcolor="#ffffcc" class="bl_gray ll_darkgray th_bd"
+                                    scope="col"><span class="ml10">购物车结算</span></th>
+                            </tr>
+                            <tr valign="top">
+                                <td bgcolor="#FFFFFF">
+                                    <table id="shoppingCartList" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                        <tbody>
+                                            <tr>
+                                                <td width="60" height="32"><input class="vm cbx" onclick="shoppingCart.select(this);"
+                                                        checked="" rel="selectAll_0" type="checkbox">全选</td>
+                                                <td>商品名称</td>
+                                                <td align="center" width="100">单价</td>
+                                                <td width="70" align="center">数量</td>
+                                                <td width="96" align="center">小计</td>
+                                                <td width="80" align="center">操作</td>
+                                            </tr>
+
+
+
+                                        </tbody>
+                                        <tbody id="VendorSysNo_4092">
+
+
+
+
+                                            <!-- <tr id="comBoId_457794" rel="vendorSysNo_4092">
+                                                <td align="center" valign="middle" class="pt20"><input class="vm cbx"
+                                                        type="checkbox"></td>
+                                                <td valign="top" class="pt20 pb">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="pb20 pb" width="80" valign="top">
+                                                                    <a href="#" title="香港直邮it's skin 韩国 伊思 滚珠红参蜗牛眼霜 15ml*2"><img
+                                                                            src="https://c4.neweggimages.com.cn/neweggpic2/neg/P80/S8F-5MY-0PA.jpg"
+                                                                            alt="香港直邮it's skin 韩国 伊思 滚珠红参蜗牛眼霜 15ml*2"
+                                                                            style="width:80px"></a>
+
+                                                                </td>
+                                                                <td valign="top" class="pl10 pb20">
+                                                                    <div class="lh120"><a href="#" title="香港直邮it's skin 韩国 伊思 滚珠红参蜗牛眼霜 15ml*2"
+                                                                            class="funcLink">香港直邮it's
+                                                                            skin 韩国 伊思 滚珠红参蜗牛眼霜 15ml*2</a></div>
+                                                                    <div class="accessoryarea mt10">
+
+
+                                                                    </div>
+
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td align="center" valign="middle" class="pt20">
+                                                    <span class="Arial14">¥200.00</span>
+                                                </td>
+                                                <td align="center" valign="middle" class="pt20">
+                                                    <div class="center">
+                                                        <input maxlength="3" class="textbox vm" type="text" value="1"
+                                                            id="Quantity_457794">
+
+                                                        <span class="inlineblock vm">
+                                                            <span class="plusminus">
+                                                            </span>
+                                                            <span class="plusminus1 minus">
+                                                            </span>
+                                                        </span>
+
+                                                    </div>
+
+                                                    <div class="center mt10">
+                                                        <span class="limitcount">限购200</span>
+                                                    </div>
+
+                                                </td>
+                                                <td align="center" valign="middle" class="pt20">
+                                                    <span class="orange Arial14">¥200.00</span>
+                                                </td>
+                                                <td align="center" valign="middle" class="pt20 pr10">
+                                                    <div class="right"><a class="funcLink" href="javascript:void(null);">删除</a></div>
+
+                                                    <div class="mt5 right"><a class="funcLink" id="moveOut_457794"
+                                                            level="3" cid="shoppingCart.moveOut" href="#">移入收藏夹</a></div>
+
+
+                                                </td>
+                                            </tr> -->
+
+                                          
+
+
+
+                                        </tbody>
+
+
+
+                                    </table>
+                                </td>
+
+                                <td align="center" valign="top" class="ll_darkgray pt20 pb20" bgcolor="#ffffcc">
+                                    <table width="150" height="170" border="0" align="center" cellpadding="0"
+                                        cellspacing="0">
+
+                                        <tbody>
+                                            <tr>
+                                                <td width="40" height="23" align="left">金额：</td>
+                                                <td align="right" class="orange Arial14">
+                                                    <strong id="money">¥200.00</strong>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td height="45" align="left">合计：</td>
+                                                <td align="right" class="orange Arial14">
+                                                    <strong id="producesum">¥200.00</strong>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2" align="center">
+                                                    <div class="center"><a class="egg_btns_t3 egg_btns_org btncheckout"
+                                                            id="checkOut1" cid="checkOut1" href="javascript:void(null);"
+                                                            onclick="return shoppingCart.goCheckout(this,'https://secure.newegg.cn/shopping/CheckOut.aspx',3600);">立刻结账</a></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="pt10" style=" text-align:left;">
+                                                    <a class="funcLink mr10" style="float:left" href="###" onclick="ShoppingCartUI.ContinueShopping();">继续购物<span
+                                                            class="ffFont">&gt;&gt;</span></a>
+
+                                                    <a id="recommendLink" class="funcLink" target="_blank" style="display: block;float: left;margin-left: 10px ">凑单推荐<span
+                                                            class="ffFont">&gt;&gt;</span></a>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class=" wraper index_footer">
+
+            <div class="footer">
+
+                <p>新蛋集团网站：<a class="ml5" href="http://www.newegg.com/ " target="_blank" style="color:#484848">美国新蛋</a><a
+                        class="ml10" href="http://www.newegg.cn " target="_blank" style="color:#484848">中国新蛋</a><a
+                        class="ml10" href="http://www.newegg.ca/ " target="_blank" style="color:#484848">加拿大新蛋</a><a
+                        class="ml10" href="http://www.neweggsoft.com/" target="_blank" style="color:#484848">新蛋软件</a></p>
+
+                <img src="https://c2.neweggimages.com.cn/WebResources/2009/Default/Nest/GomezE9WEB16.gif" height="1px"
+                    width="1px" visible="false">
+
+                <p><span>© 2001-2018</span> <span>新蛋商贸（上海）有限公司</span> <span>版权所有</span> <span><a href="http://www.miibeian.gov.cn/"
+                            title="上海市互联网准入证书" target="_blank" ref="noBlank" style="color:#484848">沪ICP备:16033615</a></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="../js/lib/jquery-1.11.1.js"></script>
+<script src="../js/scripts/shoppingcar.js"></script>

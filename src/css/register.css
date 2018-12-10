@@ -1,0 +1,164 @@
+.head_title {
+  border-left: 1px solid #D9D9D9;
+  float: left;
+  font: 24px/49px microsoft yahei;
+  margin: 15px 0 0 25px;
+  padding-left: 26px;
+}
+
+.register_box {
+  height: 491px;
+  background: #F9F9F9;
+  overflow: hidden;
+}
+.register_box .wraper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.register_box .clearfix {
+  zoom: 1;
+}
+.register_box .friend_link {
+  height: 30px;
+  line-height: 30px;
+}
+.register_box .clearfix:before,
+.register_box .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.register_box .fr {
+  float: right;
+}
+.register_box .red {
+  color: #fe0000;
+}
+.register_box .step0 {
+  margin: 20px auto;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/icon/register_step.png) no-repeat center;
+  width: 655px;
+  height: 30px;
+  background-position: 0 0;
+}
+.register_box .register_con {
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+.register_box .register_con .register_con_box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.register_box .register_con .register_con_box label {
+  display: inline-block;
+  width: 66px;
+  text-align: left;
+  cursor: default;
+}
+.register_box .register_con .register_con_box .reg_txt_0 {
+  height: 30px;
+  width: 255px;
+  line-height: 30px;
+  border: 1px solid #cfcfcf;
+  text-indent: 5px;
+  overflow: hidden;
+  background: #F9F9F9;
+}
+.register_box .register_con .register_con_box em {
+  top: 8px;
+  text-align: left;
+  height: 20px;
+  line-height: 13px;
+}
+.register_box .register_con .register_con_box .input_usrname_wrong {
+  width: 50px;
+  background-position: 0 -39px;
+  _background-position: 0 -40px;
+  color: #F60;
+}
+.register_box .register_con .register_con_box .input_tips {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img/icon_logoin_s.png) no-repeat 0 0;
+  display: inline-block;
+  font-style: normal;
+  padding-left: 17px;
+  vertical-align: middle;
+}
+.register_box .register_con .register_con_box .input_usrname_right {
+  background-position: 0 -19px;
+}
+.register_box .register_con .register_con_box .reg_txt_1 {
+  height: 30px;
+  width: 130px;
+  line-height: 30px;
+  border: 1px solid #cfcfcf;
+  text-indent: 5px;
+  overflow: hidden;
+  background: #F9F9F9;
+  vertical-align: middle;
+  margin-right: 5px;
+  text-align: center;
+}
+.register_box .register_con .register_con_box .code {
+  display: inline-block;
+  height: 32px;
+  width: 115px;
+  vertical-align: middle;
+}
+.register_box .register_con .register_con_box .code img {
+  display: block;
+  height: 32px;
+  width: 115px;
+  border: medium none;
+  max-width: 100%;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.register_box .register_con .register_con_box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.register_box .register_con .register_con_box .pwdStrength {
+  width: 300px;
+  float: right;
+}
+.register_box .register_con .register_con_box .pwdStrength .pwdGood {
+  display: none;
+  float: left;
+  width: 50px;
+  height: 20px;
+}
+.register_box .register_con .register_con_box .pwdStrength .pwdGood .active {
+  background: #F55B17;
+}
+.register_box .register_con .register_con_box .code_btn_0 {
+  width: 250px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #868686;
+  cursor: pointer;
+  background: #E1E1E1;
+  margin-left: 391px;
+}
+.register_box .register_con #next_step_btn .next_step_btn {
+  margin-left: 391px;
+}
+.register_box .register_con .next_step_btn {
+  width: 250px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #F55B17;
+  cursor: pointer;
+  background: #F55B17;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=register.css.map */
